@@ -1,0 +1,105 @@
+
+
+
+
+
+
+ body{
+  font-family:"arial";
+ /* margin: 20px 450px; */
+
+}
+#navbar{
+  height: 100%;
+  border-right: 3px solid gray;
+}
+#navbar h1{
+  font-size: 1.7rem;
+  text-align: center;
+   padding: 5px 0px; 
+font-weight: normal;
+   font-size: 30px;
+}
+#navbar ul{
+  padding: 0;
+  list-style:none;
+  color:black;
+
+font-weight: larger;
+  font-size: 20px;
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  height: 75%;
+  }
+#navbar ul li {
+   border: 1.2px solid ; border-color: #222  #222 #222 transparent; 
+ padding:15px; 
+ 
+
+}
+#navbar ul li a{
+  cursor:pointer;
+  text-decoration: none;
+  color:#222;
+  padding: 10px 20px;
+}
+
+
+#main-header{
+ 
+
+  position: fixed;
+  height: 100%;
+  min-width: 280px;
+  max-width: 400px;
+  top:0;
+  left: 0;
+ 
+
+  font-weight: bold;
+
+ 
+}
+#main-doc{
+  position: absolute;
+  left: 450px;
+  top:50px;
+ line-height: 2rem; 
+
+}
+#main-doc .main-section header{
+
+ font-weight: bold;
+  font-size:26px; 
+  padding: 10px 0;
+  margin-left: -16px;
+
+  }
+ #main-doc .main-section #main-sec{
+   padding-left: 30px; 
+ }
+ #main-doc .main-section .main-art code{
+  background-color:#f7f7f7 ;
+
+  padding: 1.2rem;
+  line-height: 2rem;
+  margin-bottom:1rem;
+  border-radius: 5px;
+ text-align: left;
+}
+#main-doc .main-section .main-art ul li{
+  margin-left: 20px;
+}
+ .men{
+  text-decoration:none ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+p{
+  color:black;
+}
+
+
+ 
